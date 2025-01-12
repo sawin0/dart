@@ -73,6 +73,7 @@ Each solution is organized by:
 | 5   | Final Value of Variable After Performing Operations| Easy       | [Solution](medium/final_value_after_operation.dart) |
 | 6   | Defanging an IP Address                            | Easy       | [Solution](medium/defanging_ip_address.dart)  |
 | 7   | Longest Substring Without Repeating Characters     | Medium     | [Solution](medium/longest_substring_without_repeating.dart) |
+| 8   | Median of Two Sorted Arrays                        | Hard       | [Solution](hard/median_of_two_sorted_arrays.dart) |
 
 
 
