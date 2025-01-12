@@ -60,11 +60,6 @@ Each solution is organized by:
    dart run <file_path>
    ```
 
-4. Run unit tests:
-   ```bash
-   dart test
-   ```
-
 ---
 
 ## 🏆 Challenges Solved
