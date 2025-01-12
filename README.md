@@ -49,7 +49,7 @@ Each solution is organized by:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/dart-programming-challenges.git
+   git clone https://github.com/sawin0/dart-programming-challenges.git
    cd dart-programming-challenges
    ```
 
