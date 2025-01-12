@@ -74,6 +74,7 @@ Each solution is organized by:
 | 6   | Defanging an IP Address                            | Easy       | [Solution](medium/defanging_ip_address.dart)  |
 | 7   | Longest Substring Without Repeating Characters     | Medium     | [Solution](medium/longest_substring_without_repeating.dart) |
 | 8   | Median of Two Sorted Arrays                        | Hard       | [Solution](hard/median_of_two_sorted_arrays.dart) |
+| 9   | Longest Palindromic Substring                             | Medium        | [Solution](medium/longest_palindromic_substring.dart)  |
 
 
 
