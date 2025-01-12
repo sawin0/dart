@@ -34,8 +34,7 @@ root
 ├── easy/            # Solutions for easy-level challenges
 ├── medium/          # Solutions for medium-level challenges
 ├── hard/            # Solutions for hard-level challenges
-├── utils/           # Utility functions and helper scripts
-├── test/            # Unit tests for solutions
+├── others/           # Solutions for other challenges
 └── README.md        # This file
 ```
 
@@ -70,13 +69,17 @@ Each solution is organized by:
 
 ## 🏆 Challenges Solved
 
-| #   | Problem Name                       | Difficulty | Solution Link                           |
-|-----|------------------------------------|------------|-----------------------------------------|
-| 1   | Two Sum                            | Easy       | [Solution](easy/two_sum.dart)           |
-| 2   | Longest Substring Without Repeats | Medium     | [Solution](medium/longest_substring.dart) |
-| 3   | Merge k Sorted Lists              | Hard       | [Solution](hard/merge_k_sorted_lists.dart) |
+| #   | Problem Name                                       | Difficulty | Solution Link                                  |
+|-----|----------------------------------------------------|------------|-----------------------------------------------|
+| 1   | Two Sum                                            | Easy       | [Solution](easy/two_sum.dart)                 |
+| 2   | Roman to Integer                                   | Easy       | [Solution](medium/roman_to_integer.dart)      |
+| 3   | Palindrome Number                                  | Easy       | [Solution](medium/palindrome_number.dart)     |
+| 4   | Jewels and Stones                                  | Easy       | [Solution](hard/jewels_and_stones.dart)       |
+| 5   | Final Value of Variable After Performing Operations| Easy       | [Solution](medium/final_value_after_operation.dart) |
+| 6   | Defanging an IP Address                            | Easy       | [Solution](medium/defanging_ip_address.dart)  |
+| 7   | Longest Substring Without Repeating Characters     | Medium     | [Solution](medium/longest_substring_without_repeating.dart) |
 
----
+
 
 ## 🤝 Contributing
 
