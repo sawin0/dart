@@ -2,8 +2,6 @@
 
 // Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
-
-
 // Example 1:
 
 // Input: x = 123
@@ -21,46 +19,40 @@
 
 // source: https://leetcode.com/problems/reverse-integer/
 
-
 void main() {
   Solution solution = Solution();
   print(solution.reverse(123)); // 321
   print(solution.reverse(-123)); // -321
   print(solution.reverse(120)); // 21
+  print(solution.reverse(1534236469)); // 0
 }
 
 class Solution {
   int reverse(int x) {
-    // Variable to track if the number is negative
-    bool isNegative = false;
+    // Use a single integer for the result instead of a double
+    int reverse = 0;
 
-    // Copy the input number to a new variable
-    int nums = x;
+    while (x != 0) {
+      // Extract the last digit
+      int remainder = x % 10;
 
-    // Variables to store the remainder of each division and the reversed number
-    double remainder = 0;
-    double reverse = 0;
+      // Check for overflow before updating reverse
+      if (reverse > (2147483647 ~/ 10) ||
+          (reverse == (2147483647 ~/ 10) && remainder > 7)) {
+        return 0;
+      }
+      if (reverse < (-2147483648 ~/ 10) ||
+          (reverse == (-2147483648 ~/ 10) && remainder < -8)) {
+        return 0;
+      }
 
-    // If the number is negative, set the flag and work with its absolute value
-    if (x < 0) {
-      isNegative = true; // Mark that the number is negative
-      nums *= -1; // Convert the number to positive for reversal
-    }
-
-    // Loop until all digits are processed
-    while (nums != 0) {
-      // Get the last digit of the number
-      remainder = nums % 10;
-
-      // Build the reversed number by shifting the current digits left
+      // Append the remainder to reverse
       reverse = reverse * 10 + remainder;
 
-      // Remove the last digit from the number
-      nums = (nums / 10).toInt(); // Use integer division to truncate the number
+      // Remove the last digit from x
+      x ~/= 10;
     }
 
-    // If the original number was negative, make the reversed number negative
-    // Otherwise, return the reversed number as it is
-    return isNegative ? (reverse *= -1).toInt() : reverse.toInt();
+    return reverse;
   }
 }
