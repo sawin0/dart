@@ -29,30 +29,27 @@ void main() {
 
 class Solution {
   int reverse(int x) {
-    // Use a single integer for the result instead of a double
-    int reverse = 0;
+    if (-2147483648 >= x || x >= 2147483647) {
+      return 0;
+    }
+    bool isNegative = false;
+    int nums = x;
+    double remainder = 0;
+    double reverse = 0;
 
-    while (x != 0) {
-      // Extract the last digit
-      int remainder = x % 10;
-
-      // Check for overflow before updating reverse
-      if (reverse > (2147483647 ~/ 10) ||
-          (reverse == (2147483647 ~/ 10) && remainder > 7)) {
-        return 0;
-      }
-      if (reverse < (-2147483648 ~/ 10) ||
-          (reverse == (-2147483648 ~/ 10) && remainder < -8)) {
-        return 0;
-      }
-
-      // Append the remainder to reverse
-      reverse = reverse * 10 + remainder;
-
-      // Remove the last digit from x
-      x ~/= 10;
+    if (x < 0) {
+      isNegative = true;
+      nums *= -1;
     }
 
-    return reverse;
+    while (nums != 0) {
+      remainder = nums % 10;
+      reverse = reverse * 10 + remainder;
+      nums = (nums / 10).toInt();
+    }
+    if (-2147483648 >= reverse || reverse >= 2147483647) {
+      return 0;
+    }
+    return isNegative ? (reverse *= -1).toInt() : reverse.toInt();
   }
 }
