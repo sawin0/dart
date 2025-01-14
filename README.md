@@ -77,6 +77,7 @@ Each solution is organized by:
 | 9   | Longest Palindromic Substring                             | Medium        | [Solution](medium/longest_palindromic_substring.dart)  |
 | 10  | Zigzag Conversion            | Medium        | [Solution](medium/zigzag_conversion.dart) |
 | 11  | Reverse Integer              | Medium        | [Solution](medium/reverse_integer.dart)   |
+| 12  | String to Integer (atoi)     | Medium        | [Solution](medium/string_to_integer_(atoi).dart)   |
 
 
 
