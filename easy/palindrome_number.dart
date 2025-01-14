@@ -24,12 +24,23 @@
 
 void main() {
   Solution solution = Solution();
-  solution.isPalindrome(121);
-  solution.isPalindrome(-121);
+  print(solution.isPalindrome(121));
+  print(solution.isPalindrome(-121));
+  print(solution.isPalindrome(10));
 }
 
 class Solution {
   bool isPalindrome(int x) {
-    return x.toString() == x.toString().split('').reversed.join();
+    if (x < 0) return false;
+
+    int original = x;
+    int reversed = 0;
+    while (x > 0) {
+      int digit = x % 10;
+      reversed = reversed * 10 + digit;
+      x ~/= 10;
+    }
+
+    return original == reversed;
   }
 }
