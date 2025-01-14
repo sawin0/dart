@@ -38,7 +38,7 @@
 // --X: X is decremented by 1, X = 2 - 1 = 1.
 // X--: X is decremented by 1, X = 1 - 1 = 0.
 //
-//source: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/
+//source: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
 
 void main() {
   Solution solution = Solution();

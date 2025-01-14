@@ -12,7 +12,7 @@
 // Input: jewels = "z", stones = "ZZ"
 // Output: 0
 //
-//source: https://leetcode.com/problems/jewels-and-stones/description/
+//source: https://leetcode.com/problems/jewels-and-stones/
 
 void main() {
   Solution solution = Solution();

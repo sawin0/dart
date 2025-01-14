@@ -20,7 +20,7 @@
 // Output: false
 // Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 //
-//source: https://leetcode.com/problems/palindrome-number/description/
+//source: https://leetcode.com/problems/palindrome-number/
 
 void main() {
   Solution solution = Solution();
