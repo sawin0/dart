@@ -1,31 +1,27 @@
 # Dart Programming Challenges 🚀
 
 Welcome to the **Dart Programming Challenges** repository! 🎉
+
 Here, I solve programming challenges from platforms like [LeetCode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/), and more using the **Dart** programming language.
 
 Whether you're here to learn, contribute, or just explore creative solutions, you've come to the right place!
 
----
-
 ## 📝 Table of Contents
 
-- [About the Repo](#about-the-repo)
-- [Folder Structure](#folder-structure)
-- [How to Use](#how-to-use)
-- [Challenges Solved](#challenges-solved)
-- [Contributing](#contributing)
-- [License](#license)
-
----
+* [About the Repo](#about-the-repo)
+* [Folder Structure](#folder-structure)
+* [How to Use](#how-to-use)
+* [Challenges Solved](#challenges-solved)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## 💡 About the Repo
 
 This repository is dedicated to solving algorithmic problems and coding challenges using **Dart**. The goals are:
-- Improve problem-solving skills 🧠
-- Demonstrate the versatility of Dart in competitive programming 💻
-- Share solutions for learning and collaboration 🤝
 
----
+* Improve problem-solving skills 🧠
+* Demonstrate the versatility of Dart in competitive programming 💻
+* Share solutions for learning and collaboration 🤝
 
 ## 🗂️ Folder Structure
 
@@ -34,16 +30,15 @@ root
 ├── easy/            # Solutions for easy-level challenges
 ├── medium/          # Solutions for medium-level challenges
 ├── hard/            # Solutions for hard-level challenges
-├── others/           # Solutions for other challenges
+├── others/          # Solutions for other challenges
 └── README.md        # This file
 ```
 
 Each solution is organized by:
-- **Problem Name**: The name of the challenge (e.g., `two_sum.dart`)
-- **Difficulty**: Categorized as easy, medium, or hard
-- **Documentation**: Inline comments to explain the approach
 
----
+* **Problem Name**: The name of the challenge (e.g., `two_sum.dart`)
+* **Difficulty**: Categorized as easy, medium, or hard
+* **Documentation**: Inline comments to explain the approach
 
 ## 🚀 How to Use
 
@@ -60,49 +55,42 @@ Each solution is organized by:
    dart run <file_path>
    ```
 
----
-
 ## 🏆 Challenges Solved
 
-| #   | Problem Name                                       | Difficulty | Solution Link                                  |
-|-----|----------------------------------------------------|------------|-----------------------------------------------|
-| 1   | Two Sum                                            | Easy       | [Solution](easy/two_sum.dart)                 |
-| 2   | Roman to Integer                                   | Easy       | [Solution](medium/roman_to_integer.dart)      |
-| 3   | Palindrome Number                                  | Easy       | [Solution](medium/palindrome_number.dart)     |
-| 4   | Jewels and Stones                                  | Easy       | [Solution](hard/jewels_and_stones.dart)       |
-| 5   | Final Value of Variable After Performing Operations| Easy       | [Solution](medium/final_value_after_operation.dart) |
-| 6   | Defanging an IP Address                            | Easy       | [Solution](medium/defanging_ip_address.dart)  |
-| 7   | Longest Substring Without Repeating Characters     | Medium     | [Solution](medium/longest_substring_without_repeating.dart) |
-| 8   | Median of Two Sorted Arrays                        | Hard       | [Solution](hard/median_of_two_sorted_arrays.dart) |
-| 9   | Longest Palindromic Substring                             | Medium        | [Solution](medium/longest_palindromic_substring.dart)  |
-| 10  | Zigzag Conversion            | Medium        | [Solution](medium/zigzag_conversion.dart) |
-| 11  | Reverse Integer              | Medium        | [Solution](medium/reverse_integer.dart)   |
-| 12  | String to Integer (atoi)     | Medium        | [Solution](medium/string_to_integer_(atoi).dart)   |
-| 13  | Regular Expression Matching  | Hard          | [Solution](hard/regular_expression_matching.dart)  |
-| 14  | Container With Most Water    | Medium        | [Solution](medium/container_with_most_water.dart)  |
-
+| #  | Problem Name | Difficulty | Solution Link |
+|----|--------------|------------|---------------|
+| 1  | Two Sum | Easy | [Solution](easy/two_sum.dart) |
+| 2  | Roman to Integer | Easy | [Solution](medium/roman_to_integer.dart) |
+| 3  | Palindrome Number | Easy | [Solution](medium/palindrome_number.dart) |
+| 4  | Jewels and Stones | Easy | [Solution](hard/jewels_and_stones.dart) |
+| 5  | Final Value of Variable After Performing Operations | Easy | [Solution](medium/final_value_after_operation.dart) |
+| 6  | Defanging an IP Address | Easy | [Solution](medium/defanging_ip_address.dart) |
+| 7  | Longest Substring Without Repeating Characters | Medium | [Solution](medium/longest_substring_without_repeating.dart) |
+| 8  | Median of Two Sorted Arrays | Hard | [Solution](hard/median_of_two_sorted_arrays.dart) |
+| 9  | Longest Palindromic Substring | Medium | [Solution](medium/longest_palindromic_substring.dart) |
+| 10 | Zigzag Conversion | Medium | [Solution](medium/zigzag_conversion.dart) |
+| 11 | Reverse Integer | Medium | [Solution](medium/reverse_integer.dart) |
+| 12 | String to Integer (atoi) | Medium | [Solution](medium/string_to_integer_(atoi).dart) |
+| 13 | Regular Expression Matching | Hard | [Solution](hard/regular_expression_matching.dart) |
+| 14 | Container With Most Water | Medium | [Solution](medium/container_with_most_water.dart) |
+| 15 | Integer to Roman | Medium | [Solution](medium/integer_to_roman.dart) |
 
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Commit your changes with clear messages.
-4. Submit a pull request.
 
----
+1. Fork the repository
+2. Create a new branch for your feature or fix
+3. Commit your changes with clear messages
+4. Submit a pull request
 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
 ## 🌟 Acknowledgments
 
-- Thanks to platforms like LeetCode and HackerRank for providing endless challenges!
-- Inspired by the Dart community for their constant support.
-
----
+* Thanks to platforms like LeetCode and HackerRank for providing endless challenges!
+* Inspired by the Dart community for their constant support.
 
 Happy Coding! 💻
