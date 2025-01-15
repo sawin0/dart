@@ -48,7 +48,8 @@ void main() {
 
 class Solution {
   int romanToInt(String s) {
-    Map<String, int> map = {
+    // A map to store the integer values corresponding to each Roman numeral.
+    const Map<String, int> map = {
       'I': 1,
       'V': 5,
       'X': 10,
@@ -58,18 +59,29 @@ class Solution {
       'M': 1000
     };
 
+    // Initialize the total to 0 and the previous value to 0.
     int total = 0;
-    for (int i = 0; i < s.length; i++) {
-      int currentValue = map[s[i]] ?? 0;
-      int nextValue = i + 1 < s.length ? map[s[i + 1]] ?? 0 : 0;
+    int prevValue = 0;
 
-      if (currentValue < nextValue) {
+    // Loop through the Roman numeral string in reverse order.
+    for (int i = s.length - 1; i >= 0; i--) {
+      // Get the integer value of the current Roman numeral character.
+      int currentValue = map[s[i]] ?? 0;
+
+      // If the current value is less than the previous value, subtract it
+      // (e.g., in cases like IV or IX where a smaller numeral precedes a larger one).
+      if (currentValue < prevValue) {
         total -= currentValue;
       } else {
+        // Otherwise, add the current value to the total.
         total += currentValue;
       }
+
+      // Update the previous value to the current value for the next iteration.
+      prevValue = currentValue;
     }
 
+    // Return the final total, which represents the integer equivalent of the Roman numeral.
     return total;
   }
 }
