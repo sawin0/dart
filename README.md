@@ -74,6 +74,7 @@ Each solution is organized by:
 | 13 | Regular Expression Matching | Hard | [Solution](hard/regular_expression_matching.dart) |
 | 14 | Container With Most Water | Medium | [Solution](medium/container_with_most_water.dart) |
 | 15 | Integer to Roman | Medium | [Solution](medium/integer_to_roman.dart) |
+| 16 | Longest Common Prefix | Easy | [Solution](easy/longest_common_prefix.dart) |
 
 ## 🤝 Contributing
 
