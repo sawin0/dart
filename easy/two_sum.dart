@@ -24,59 +24,33 @@
 
 void main() {
   Solution solution = Solution();
-
-  print('Using loop and if condition');
-  print('');
-
   print(solution.twoSum([2, 7, 11, 15], 9));
   print(solution.twoSum([3, 2, 4], 6));
   print(solution.twoSum([3, 3], 6));
   print(solution.twoSum([3, 2, 3], 6));
-
-  print('');
-  print('Using HashMap here...');
-  print('');
-
-  print(solution.twoSumH([2, 7, 11, 15], 9));
-  print(solution.twoSumH([3, 2, 4], 6));
-  print(solution.twoSumH([3, 3], 6));
-  print(solution.twoSumH([3, 2, 3], 6));
 }
 
 class Solution {
-  ///
-  /// using only loops and if conditions
-  ///
   List<int> twoSum(List<int> nums, int target) {
-    if (nums.length == 2) {
-      return target == nums[0] + nums[1] ? [0, 1] : [0, 0];
-    }
-    List<int> copyNums = nums.toList();
-    int i = 0;
-    while (copyNums.isNotEmpty) {
-      int diff = target - nums[i];
-      copyNums.remove(nums[i]);
-      if (copyNums.contains(diff)) {
-        return [i, copyNums.indexOf(diff) + i + 1];
-      }
-      i++;
-    }
-    return [0, 0];
-  }
-
-  ///
-  /// using hashmap - more efficinet way to solve this
-  ///
-  List<int> twoSumH(List<int> nums, int target) {
+    // Map to store array values as keys and their indices as values
     Map<int, int> sumHash = {};
 
+    // Iterate over the array
     for (int i = 0; i < nums.length; i++) {
+      // Calculate the complement needed to reach the target
       int diff = target - nums[i];
+
+      // Check if the complement already exists in the map
       if (sumHash.containsKey(diff)) {
+        // If found, return the indices of the complement and the current value
         return [sumHash[diff] ?? 0, i];
       }
+
+      // Otherwise, add the current value and its index to the map
       sumHash[nums[i]] = i;
     }
-    return [0, 0];
+
+    // If no solution is found, throw an exception (adjust as needed)
+    throw Exception("No solution found");
   }
 }
