@@ -57,24 +57,27 @@ Each solution is organized by:
 
 ## 🏆 Challenges Solved
 
-| #  | Problem Name | Difficulty | Solution Link |
+| # | Problem Name | Difficulty | Solution Link |
 |----|--------------|------------|---------------|
-| 1  | Two Sum | Easy | [Solution](easy/two_sum.dart) |
-| 2  | Roman to Integer | Easy | [Solution](medium/roman_to_integer.dart) |
-| 3  | Palindrome Number | Easy | [Solution](medium/palindrome_number.dart) |
-| 4  | Jewels and Stones | Easy | [Solution](hard/jewels_and_stones.dart) |
-| 5  | Final Value of Variable After Performing Operations | Easy | [Solution](medium/final_value_after_operation.dart) |
-| 6  | Defanging an IP Address | Easy | [Solution](medium/defanging_ip_address.dart) |
-| 7  | Longest Substring Without Repeating Characters | Medium | [Solution](medium/longest_substring_without_repeating.dart) |
-| 8  | Median of Two Sorted Arrays | Hard | [Solution](hard/median_of_two_sorted_arrays.dart) |
-| 9  | Longest Palindromic Substring | Medium | [Solution](medium/longest_palindromic_substring.dart) |
-| 10 | Zigzag Conversion | Medium | [Solution](medium/zigzag_conversion.dart) |
-| 11 | Reverse Integer | Medium | [Solution](medium/reverse_integer.dart) |
-| 12 | String to Integer (atoi) | Medium | [Solution](medium/string_to_integer_(atoi).dart) |
-| 13 | Regular Expression Matching | Hard | [Solution](hard/regular_expression_matching.dart) |
-| 14 | Container With Most Water | Medium | [Solution](medium/container_with_most_water.dart) |
-| 15 | Integer to Roman | Medium | [Solution](medium/integer_to_roman.dart) |
-| 16 | Longest Common Prefix | Easy | [Solution](easy/longest_common_prefix.dart) |
+| 1 | Two Sum | Easy | [Solution](easy/two_sum.dart) |
+| 2 | AddTwo Numbers | Medium | [Solution](easy/two_sum.dart) |
+| 3 | Longest Substring Without Repeating Characters | Medium | [Solution](medium/longest_substring_without_repeating.dart) |
+| 4 | Median of Two Sorted Arrays | Hard | [Solution](hard/median_of_two_sorted_arrays.dart) |
+| 5 | Longest Palindromic Substring | Medium | [Solution](medium/longest_palindromic_substring.dart) |
+| 6 | Zigzag Conversion | Medium | [Solution](medium/zigzag_conversion.dart) |
+| 7 | Reverse Integer | Medium | [Solution](medium/reverse_integer.dart) |
+| 8 | String to Integer (atoi) | Medium | [Solution](medium/string_to_integer_(atoi).dart) |
+| 9 | Palindrome Number | Easy | [Solution](medium/palindrome_number.dart) |
+| 10 | Regular Expression Matching | Hard | [Solution](hard/regular_expression_matching.dart) |
+| 11 | Container With Most Water | Medium | [Solution](medium/container_with_most_water.dart) |
+| 12 | Integer to Roman | Medium | [Solution](medium/integer_to_roman.dart) |
+| 13 | Roman to Integer | Easy | [Solution](medium/roman_to_integer.dart) |
+| 14 | Longest Common Prefix | Easy | [Solution](easy/longest_common_prefix.dart) |
+| 771 | Jewels and Stones | Easy | [Solution](hard/jewels_and_stones.dart) |
+| 1108 | Defanging an IP Address | Easy | [Solution](medium/defanging_ip_address.dart) |
+| 2011 | Final Value of Variable After Performing Operations | Easy | [Solution](medium/final_value_after_operation.dart) |
+
+
 
 ## 🤝 Contributing
 
