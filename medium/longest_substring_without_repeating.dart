@@ -32,19 +32,34 @@ void main() {
 
 class Solution {
   int lengthOfLongestSubstring(String s) {
-    var input = s;
-    Set<String> letters = {};
-    int maxSubString = 0;
-    for (var i = 0; i < input.length; i++) {
+    // Variable to store the length of the longest substring without duplicates
+    int ans = 0;
 
-      while (letters.contains(input[i])) {
-        letters.remove(letters.first);
+    // List of size 128 to represent ASCII characters, initialized to 0.
+    // Each index corresponds to a character, and the value represents the count of that character in the current window.
+    List<int> count = List.filled(128, 0);
+
+    // Two pointers (l for the left boundary, r for the right boundary) of the sliding window
+    for (int l = 0, r = 0; r < s.length; r++) {
+      // Increment the count for the character at index r
+      count[s.codeUnitAt(r)]++;
+
+      // If the count of the current character is greater than 1, it means there's a duplicate.
+      // Adjust the window by moving the left pointer (l) to the right until the duplicate is removed.
+      while (count[s.codeUnitAt(r)] > 1) {
+        // Decrement the count of the character at index l
+        count[s.codeUnitAt(l)]--;
+        // Move the left pointer to the right
+        l++;
       }
-      letters.add(input[i]);
-      if (letters.length > maxSubString) {
-        maxSubString = letters.length;
-      }
+
+      // Update the maximum length of the substring without duplicates
+      // Current substring length is (r - l + 1)
+      ans = ans > (r - l + 1) ? ans : (r - l + 1);
     }
-    return maxSubString;
-  
-}}
+
+    // Return the maximum length found
+    return ans;
+  }
+}
+
