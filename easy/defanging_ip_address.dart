@@ -22,7 +22,16 @@ void main() {
 }
 
 class Solution {
+  // This method converts a valid IPv4 address into a "defanged" version.
+  // In the defanged version, every period (.) is replaced with "[.]".
+  // Parameters:
+  // - `address`: A string representing a valid IPv4 address.
+  // Returns:
+  // - A string where all periods in the IPv4 address are replaced with "[.]".
   String defangIPaddr(String address) {
+    // Use the `replaceAll` method to replace all occurrences of the '.' character
+    // with the string "[.]". This creates the defanged version of the IP address.
     return address.replaceAll('.', '[.]');
   }
 }
+
