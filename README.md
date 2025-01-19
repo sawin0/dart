@@ -73,8 +73,17 @@ Each solution is organized by:
 | 12 | Integer to Roman | Medium | [Solution](medium/integer_to_roman.dart) |
 | 13 | Roman to Integer | Easy | [Solution](medium/roman_to_integer.dart) |
 | 14 | Longest Common Prefix | Easy | [Solution](easy/longest_common_prefix.dart) |
+| 136 | Single Number | Easy | [Solution](easy/single_number.dart) |
+| 202 | Happy Number | Easy | [Solution](easy/happy_number.dart) |
+| 217 | Contains Duplicate | Easy | [Solution](easy/contains_duplicate.dart) |
+| 349 | Intersection of Two Arrays | Easy | [Solution](easy/intersection_of_two_array.dart) |
+| 682 | Baseball Game | Easy | [Solution](easy/baseball_game.dart) |
+| 705 | Design HashSet | Easy | [Solution](easy/design_hashset.dart) |
+| 706 | Design HashMap | Easy | [Solution](easy/design_hashmap.dart) |
 | 771 | Jewels and Stones | Easy | [Solution](hard/jewels_and_stones.dart) |
+| 905 | Sort Array By Parity | Easy | [Solution](easy/sort_array_by_parity.dart) |
 | 1108 | Defanging an IP Address | Easy | [Solution](medium/defanging_ip_address.dart) |
+|1281 | Subtract the Product and Sum of Digits of an Integer | Easy | [Solution](easy/subtract_the_product_and_sum_of_digits_of_an_integer.dart) |
 | 2011 | Final Value of Variable After Performing Operations | Easy | [Solution](medium/final_value_after_operation.dart) |
 
 
