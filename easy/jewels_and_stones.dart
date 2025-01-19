@@ -16,65 +16,29 @@
 
 void main() {
   Solution solution = Solution();
-  print('Using loop:');
   print(solution.numJewelsInStones('aA', 'aAAbbbb'));
   print(solution.numJewelsInStones('z', 'ZZ'));
-
-  print('Using Regex:');
-
-  print(solution.numJewelsInStonesRegex('aA', 'aAAbbbb'));
-  print(solution.numJewelsInStonesRegex('z', 'ZZ'));
-
-  print('Using fold:');
-  print(solution.numJewelsInStonesFold('aA', 'aAAbbbb'));
-  print(solution.numJewelsInStonesFold('z', 'ZZ'));
 }
 
 class Solution {
-  ///
-  ///Using loop and map
-  ///
+  // This function calculates the number of stones that are jewels.
+  // Parameters:
+  // - `jewels`: A string where each character represents a type of jewel.
+  // - `stones`: A string where each character represents a stone you have.
+  // Returns:
+  // - The count of stones that are also jewels.
   int numJewelsInStones(String jewels, String stones) {
-    final count = occurrence(stones);
-    final jewelList = jewels.split('');
-    var output = 0;
-    for (var jewel in jewelList) {
-      output += count[jewel] ?? 0;
-    }
-    return output;
-  }
+    int count = 0; // Counter to track the number of stones that are jewels.
 
-  Map<String, int> occurrence(String text) {
-    final words = text.split('');
-    final count = <String, int>{};
-    for (var word in words) {
-      count.update(word, (value) => value + 1, ifAbsent: () => 1);
+    // Iterate over each stone in the `stones` string.
+    for (var stone in stones.split('')) {
+      // Check if the current stone exists in the `jewels` string.
+      if (jewels.contains(stone)) {
+        count++; // Increment the count if the stone is a jewel.
+      }
     }
+
+    // Return the total count of stones that are jewels.
     return count;
-  }
-
-  ///
-  ///Using Regex only
-  ///
-  int numJewelsInStonesRegex(String jewels, String stones) {
-    return RegExp('[$jewels]').allMatches(stones).length;
-  }
-
-  ///
-  ///Using fold and map
-  ///
-  int numJewelsInStonesFold(String jewels, String stones) {
-    final count = occurrenceFold(stones);
-    final output = jewels
-        .split('')
-        .fold<int>(0, (acc, jewel) => acc + (count[jewel] ?? 0));
-    return output;
-  }
-
-  Map<String, int> occurrenceFold(String text) {
-    return text.split('').fold<Map<String, int>>(
-        {},
-        (count, word) =>
-            count..update(word, (value) => value + 1, ifAbsent: () => 1));
   }
 }
