@@ -74,6 +74,7 @@ Each solution is organized by:
 | 13 | Roman to Integer | Easy | [Solution](medium/roman_to_integer.dart) |
 | 14 | Longest Common Prefix | Easy | [Solution](easy/longest_common_prefix.dart) |
 | 15 | 3Sum | Medium | [Solution](medium/3_sum.dart) |
+| 16 | 3Sum Closest | Medium | [Solution](medium/3_sum_closest.dart) |
 | 136 | Single Number | Easy | [Solution](easy/single_number.dart) |
 | 202 | Happy Number | Easy | [Solution](easy/happy_number.dart) |
 | 217 | Contains Duplicate | Easy | [Solution](easy/contains_duplicate.dart) |
