@@ -76,6 +76,7 @@ Each solution is organized by:
 | 15 | 3Sum | Medium | [Solution](medium/3_sum.dart) |
 | 16 | 3Sum Closest | Medium | [Solution](medium/3_sum_closest.dart) |
 | 17 | Letter Combinations of a Phone Number | Medium | [Solution](medium/letter_combinations_of_a_phone_number.dart) |
+| 18 | 4Sum | Medium | [Solution](medium/4_sum.dart) |
 | 136 | Single Number | Easy | [Solution](easy/single_number.dart) |
 | 202 | Happy Number | Easy | [Solution](easy/happy_number.dart) |
 | 217 | Contains Duplicate | Easy | [Solution](easy/contains_duplicate.dart) |
