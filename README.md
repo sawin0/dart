@@ -78,6 +78,7 @@ Each solution is organized by:
 | 17 | Letter Combinations of a Phone Number | Medium | [Solution](medium/letter_combinations_of_a_phone_number.dart) |
 | 18 | 4Sum | Medium | [Solution](medium/4_sum.dart) |
 | 19 | Remove Nth Node From End of List | Medium | [Solution](medium/remove_nth_node_from_end_of_list.dart) |
+| 20 | Valid Parentheses | Easy | [Solution](easy/valid_parentheses.dart) |
 | 136 | Single Number | Easy | [Solution](easy/single_number.dart) |
 | 202 | Happy Number | Easy | [Solution](easy/happy_number.dart) |
 | 217 | Contains Duplicate | Easy | [Solution](easy/contains_duplicate.dart) |
