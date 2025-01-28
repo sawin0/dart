@@ -79,6 +79,7 @@ Each solution is organized by:
 | 18 | 4Sum | Medium | [Solution](medium/4_sum.dart) |
 | 19 | Remove Nth Node From End of List | Medium | [Solution](medium/remove_nth_node_from_end_of_list.dart) |
 | 20 | Valid Parentheses | Easy | [Solution](easy/valid_parentheses.dart) |
+| 21 | Merge Two Sorted Lists | Easy | [Solution](easy/merge_two_sorted_lists.dart) |
 | 136 | Single Number | Easy | [Solution](easy/single_number.dart) |
 | 202 | Happy Number | Easy | [Solution](easy/happy_number.dart) |
 | 217 | Contains Duplicate | Easy | [Solution](easy/contains_duplicate.dart) |
